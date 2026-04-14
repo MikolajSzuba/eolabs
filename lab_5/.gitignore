@@ -1,3 +1,7 @@
-data/
+# Keep folder structure, ignore heavy hyperspectral files.
+data/*
+!data/images/
+data/images/*
+!data/images/README.md
 .ipynb_checkpoints/
 __pycache__/
