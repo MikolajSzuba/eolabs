@@ -2,6 +2,19 @@
 
 A minimal desktop tool for exploring ENVI/BSQ hyperspectral data cubes.
 
+## Project structure
+
+```text
+lab_5/
+	viewer.py
+	quickstart.ipynb
+	data/
+		images/
+			README.md
+```
+
+Copy your dataset pairs (`.hdr` + `.bsq`) into `data/images/`.
+
 ## Features
 
 - Loads any ENVI/BSQ image from `data/images/` (reads the `.hdr` sidecar for metadata)
@@ -34,6 +47,15 @@ python viewer.py
 
 # open a specific file directly
 python viewer.py data/images/221000_Odra_HS_Blok_A_008_VS_join_atm.hdr
+```
+
+## Quickstart notebook (optional)
+
+Use the notebook to check whether your dataset is in the correct folder and to
+print ready-to-run commands:
+
+```bash
+jupyter lab quickstart.ipynb
 ```
 
 On startup the tool will:
