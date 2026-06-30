@@ -7,4 +7,9 @@ __pycache__/
 .vscode/
 data/outputs/
 *.crdownload
+SAR_Lab_2/*.tif
+SAR_Lab_2/*.dim
+SAR_Lab_2/*.data/
+SAR_Lab_2/*.bak
+
 
