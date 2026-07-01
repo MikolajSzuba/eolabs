@@ -12,4 +12,11 @@ SAR_Lab_2/*.dim
 SAR_Lab_2/*.data/
 SAR_Lab_2/*.bak
 
+# Data archives and directories
+*.tar.xz
+SAR_Lab_6/RidgecrestSenDT71/
+SAR_Lab_6/SanFranSenDT42/
 
+# macOS metadata files
+._*
+**/._*
